@@ -1,7 +1,14 @@
 __pycache__/
-*.pkl
-*.png
-*.wav
-*.txt
 .ipynb_checkpoints/
+
+# Keep dataset ignored (to avoid large pushes)
 emotion_dataset/
+
+# Allow model, wav, png, txt files
+# (override previous rules with !)
+!models/
+!results/
+!sample.wav
+!*.pkl
+!*.png
+!*.txt
