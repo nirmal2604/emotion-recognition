@@ -4,3 +4,4 @@ scikit-learn
 librosa==0.10.1
 soundfile==0.12.1
 matplotlib
+setuptools
