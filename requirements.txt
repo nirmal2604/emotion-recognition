@@ -6,3 +6,4 @@ soundfile==0.12.1
 matplotlib
 setuptools
 standard-aifc
+standard-sunau
